@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Youtube finder</title>
+    </head>
+    <body style="background-color:rgb(2, 2, 2);">
+        <h1 style="color:rgb(248, 247, 247);font-family:courier,arial,helvetica;">
+            Search when someone said something in a youtube video
+        </h1>
+        <form action="/res" method="POST">
+            <input name="link" placeholder="Paste Youtube link here" type="text">
+            <input name="comment" placeholder="what would you like to search?" type="text">
+            <input type="submit" value="search">
+        </form>
+        <p style="color:rgb(248, 247, 247);font-family:courier,arial,helvetica;">
+            You remember WHAT someone said in a youtube video but don't remember WHEN they said it. This tool will help you find when they said it!
+        </p>
+        <p style="color:rgb(248, 247, 247);font-family:courier,arial,helvetica;">
+            Only paste the last code from the video: for example 
+            from "https://www.youtube.com/watch?v=ycPr5-27vSI" this video, you only have to paste the code after "=" sign, so "ycPr5-27vSI"
+        </p>
+    </body>
+</html>

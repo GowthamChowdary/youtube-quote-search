@@ -1,0 +1,5 @@
+flask==1.1.1
+requests
+youtube_transcript_api
+gunicorn==20.0.4
+Jinja2==2.10.3

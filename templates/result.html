@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+    <body style="background-color:rgb(2, 2, 2);"></body>
+    <h2 style="color:rgb(248, 247, 247);font-family:courier,arial,helvetica;">Results for {{comment}}!</h2>
+        {% for x in results%}
+        <p style="color:rgb(248, 247, 247);font-family:courier,arial,helvetica;">{{x['text']}} :  youtu.be/{{url}}?t={{x['start']}}</p>
+        {% endfor %}
+
+</html>
